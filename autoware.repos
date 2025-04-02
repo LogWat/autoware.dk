@@ -30,7 +30,7 @@ repositories:
   universe/autoware.universe:
     type: git
     url: https://github.com/LogWat/autoware.universe.dk.git
-    version: logwat_edit
+    version: dk_develop
   universe/external/tier4_ad_api_adaptor:
     type: git
     url: https://github.com/tier4/tier4_ad_api_adaptor.git
@@ -111,6 +111,10 @@ repositories:
     type: git
     url: https://github.com/autowarefoundation/single_lidar_sensor_kit_launch.git
     version: 52219a5a730708e2c22b2a8164a68f999bd35127
+  sensor_kit/dk_sensor_kit_launch:
+    type: git
+    url: https://github.com/team-d2/dk_sensor_kit_launch.git
+    version: dk_develop
   vehicle/sample_vehicle_launch:
     type: git
     url: https://github.com/autowarefoundation/sample_vehicle_launch.git
